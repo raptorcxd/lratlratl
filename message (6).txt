@@ -4,6 +4,9 @@ local mainAcc = "\65\72\121\100\114\111\65"
 local altAcc1 = "\83\108\105\109\101\67\114\121\115\116\97\108\80\97\110\100\97"
 local altAcc2 = "\74\101\108\108\121\83\107\97\116\101\114\67\104\97\48\115"
 local altAcc3 = "\78\101\111\110\67\114\97\122\101\50\48\48\56"
+local altAcc4 = "\83\107\121\82\105\100\101\114\86\111\114\116\101\120\49\51"
+local altAcc5 = "\67\114\97\122\101\72\101\114\111\78\105\110\106\97\50\48\50\48"
+
 
 ---------------------------------------
 repeat task.wait() until game:IsLoaded()
@@ -16,7 +19,7 @@ until #Players:GetChildren() >= 2
 local check = true
 for _, v in pairs (game.Players:GetChildren()) do
     if game.Players.LocalPlayer.Name == mainAcc then
-        if v.Name == altAcc1 or v.Name == altAcc2 or v.Name == altAcc3 then
+        if v.Name == altAcc1 or v.Name == altAcc2 or v.Name == altAcc3 or v.Name == altAcc4 or v.Name == altAcc5 then
             check = false
         end
     else
