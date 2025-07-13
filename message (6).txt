@@ -1,6 +1,6 @@
 task.spawn(function()
 --Set Accounts First
-local mainAcc = "AHydroA"
+local mainAcc = "nigga"
 local altAcc1 = "SlimeCrystalPanda"
 local altAcc2 = "JellySkaterCha0s"
 local altAcc3 = "NeonCraze2008"
